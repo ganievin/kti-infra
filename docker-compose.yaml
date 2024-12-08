@@ -11,7 +11,6 @@ services:
       - flask
 
   flask:
-    image: "ganievin/flask:1.0"
     build: .
     container_name: flask
     env_file:
